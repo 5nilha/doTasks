@@ -29,7 +29,7 @@ html {
 
 body {
 	height: 100%;
-  background: #fcdfdf;
+  background: #2196F3;
   font-family: 'Lato', sans-serif;
 }
 
@@ -72,14 +72,42 @@ body {
 			font-size: 2.5em;
 			font-weight: 300;
 			margin-bottom: 0;
-			color: #39c0d8;
+			color: #fff;
 			a {
-				color: #39c0d8;
+				color: #fff;
 			}
 		}
 		p {
-			color: #789399;
+			color: #80C6FF;
 		}
+	}
+	
+	.job-task {
+		h1 {
+			font-size: 2.5em;
+			font-weight: 300;
+			margin-top: 1em;
+			margin-bottom: 1em;
+			color: #ffeb3b;
+			letter-spacing: 2px;
+			a {
+				color: #fff;
+			}
+		}
+		p {
+			line-height: 230%;
+			color: #fff;
+			font-size: 110%;
+			letter-spacing: 1px;
+			
+		}
+	}
+	
+}
+
+#buttons_link {
+	.button_link {
+		padding-bottom: 10px;
 	}
 }
 
